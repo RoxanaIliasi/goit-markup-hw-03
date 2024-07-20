@@ -210,7 +210,7 @@ img{
 .header{
     border-bottom: 1px solid #e7e9fc;
 }
-.header-container{
+.container{
     display:flex;
     width: 1158px; 
     margin: 0 auto;
@@ -230,6 +230,9 @@ img{
     gap: 40px;
 }
 .header-item{
+    padding: 24px 0;
+}
+.header-link{
     padding: 24px 0;
 }
 
@@ -267,8 +270,14 @@ img{
     min-width: 169px; 
     border: none;
 }
-.title-section.visually-patern{
-    visibility: hidden;
+.visually-hidden{
+    clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
 }
 .section_two{
     padding: 120px 0;
@@ -280,11 +289,9 @@ img{
     margin-left: 104px;
 }
 .section-two-item{
-    width: calc((100%-72px)/4); 
+    width: calc((100% - 72px) / 4);
 }
-.title_two{
-    margin-bottom: 8px;
-}
+
 .section_three{
     background-color: #F4F4FD;
     Width:1440px;
