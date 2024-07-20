@@ -212,19 +212,18 @@ img{
 }
 .header-container{
     display:flex;
-    justify-content:space-between;
-}
-.header-cont{
     width: 1158px; 
-     margin: 0 auto;
-     padding: 0 15px;
+    margin: 0 auto;
+    padding: 0 15px;
+
 }
+
 .header-nav{
     display:flex;
     align-items: center;
 }
 .logo{
-     margin-right: 76px;
+    margin-right: 76px;
 }
 .header-list{
     display:flex;
