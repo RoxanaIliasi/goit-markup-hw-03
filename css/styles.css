@@ -178,3 +178,155 @@ line-height: 1.11;
     color: #F4F4FD;
     letter-spacing: 0.02em;
 }
+
+
+
+ul {
+  padding-inline-start: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  /* margin: 0;
+  padding: 0; */
+  list-style-type: none;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  /* margin: 0; */
+}
+
+a {
+  text-decoration: none;
+  font-style: normal;
+}
+
+img{
+    display:block;
+}
+.header-container{
+    display:flex;
+    justify-content:space-between;
+}
+.header-nav{
+    display:flex;
+    align-items: center;
+}
+.logo{
+    display:flex;
+    margin-left: 156px;
+    margin-top: 24px;
+     margin-bottom: 24px;
+}
+.header-list{
+    display:flex;
+    margin-left: 40px;
+    margin-top: 24px;
+    max-width: 100px;
+    gap:40px;
+     margin-bottom: 24px;
+}
+.header-item{
+    display:flex;
+    align-items: baseline;
+}
+.header-list.header-item{
+    display: inline;
+    margin-left:71px;
+}
+.header-list.header-item:first-child{
+    margin-left:0;
+}
+.header-link{
+    font-family:Roboto;
+    font-size:16px;
+    font-weight:500;
+    line-height:24px;
+    letter-spacing:0.1em;
+    color:#2E2F42;
+}
+.link{
+    display:flex;
+    margin-top:24px;
+    margin-left: 108;
+    margin-right: 156px;
+    margin-bottom: 24px;
+    gap: 40px;
+}
+.section_one{
+    width:1440px;
+    height:600px;
+    top:72px;
+}
+.title_one{
+    padding-top: 120px;
+    padding-left: 472px;
+    padding-right: 472px;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 60px;
+    letter-spacing: 2%;
+}
+.button{
+    padding: 16px, 32px, 16px, 32px;
+    gap:10px;
+    border-radius: 4px;
+    width: 169px;
+    height: 56px;
+    text-align: center;
+    margin-left:636px;
+    margin-top: 56px;
+}
+.visually-hidden{
+    visibility: hidden;
+}
+.section_two{
+    padding: 120px 0;
+}
+.goals{
+    display: flex;
+    gap:24px; 
+    margin-right: 24px;
+    margin-left: 104px;
+}
+.section-two-item{
+    width: calc((100%-72px)/4); 
+}
+.title_two{
+    margin-bottom: 8px;
+}
+.section_three{
+    background-color: #F4F4FD;
+    Width:1440px;
+Height:732px;
+Top:1016px;
+}
+.title{
+    padding-top: 40px;
+    line-height: 40px;
+    margin-bottom: 40px;
+}
+.teamwork{
+    display:flex;
+    gap: 32px;
+    border-radius:0px, 0px, 4px, 4px;
+    Padding:0px, 0px, 32px, 0px;
+}
+.team-one{
+    margin-left:156px;
+}
+.team-four{
+    padding-right: 156px;;
+}
+.title_two{
+    text-align: center;
+    gap:8px;
+    
+}
+.our_team{
+    text-align: center;
+}
