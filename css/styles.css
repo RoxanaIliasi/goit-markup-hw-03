@@ -379,7 +379,8 @@ img{
 }
 .footer_paragraph{
     max-width: 264px;
+    display: inline-block;
 }
-.footer-logo span{
+.studio_footer{
     display: inline-block;
 }
