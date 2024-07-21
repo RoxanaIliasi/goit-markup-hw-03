@@ -370,12 +370,11 @@ img{
     margin-bottom: 8px;
 }
 .footer-class{
-    padding: 100px 0; 
-    display: inline-block; 
+    padding: 100px 0;  
 }
 .logo-footer{
-    display: inline-block;
     margin-bottom: 16px; 
+    display: inline-block;
 }
 .studio_footer{
     display: inline-block;
