@@ -288,8 +288,11 @@ img{
     margin-right: 24px;
     margin-left: 104px;
 }
-.title_two{
+.section-two-item{
     width: calc((100% - 72px) / 4);
+}
+.title_two{
+    margin-bottom: 8px;
 }
 
 .section_three{
