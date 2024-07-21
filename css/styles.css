@@ -367,8 +367,7 @@ img{
 }
 .footer{
     padding: 100px 0; 
-    
-   
+    display: inline-block; 
 }
 .logo-footer{
     display: inline-block;
