@@ -271,16 +271,7 @@ img{
     border: none;
 }
 .visually-hidden{
-   position:absolute;
-   width: 1px;
-   height: 1px;
-   margin:-1px;
-   border: 0;
-   padding: 0;
-   white-space: nowrap;
-   clip-path: inset(100%);
-   clip: react(0 0 0 0);
-   overflow: hidden;
+   visibility: hidden;
 }
 .section_two{
     padding: 120px 0;
@@ -294,10 +285,6 @@ img{
 .section-two-item{
     width: calc((100% - 72px) / 4);
 }
-.section-four-list{
-    width: calc((100% - 48px) / 3); 
-}
-
 .title_two{
     margin-bottom: 8px;
 }
@@ -367,11 +354,11 @@ img{
 }
 .footer{
     padding: 100px 0; 
-    display: inline-block;
+    
    
 }
 .logo{
-    
+    display: inline-block;
     margin-bottom: 16px; 
 }
 .footer_paragraph{
