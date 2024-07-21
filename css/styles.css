@@ -357,11 +357,11 @@ img{
 }
 .footer{
     padding: 100px 0; 
-    display: inline-block;
+    
    
 }
-.logo{
-    
+.logo-footer{
+    display: inline-block;
     margin-bottom: 16px; 
 }
 .footer_paragraph{
