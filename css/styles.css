@@ -369,15 +369,13 @@ img{
      border-top: none;
     margin-bottom: 8px;
 }
-.footer-class{
-    padding: 100px 0; 
-    background-color: #2E2F42; 
+.footer{
+     padding: 100px 0; 
 }
 .logo{
-    margin-bottom: 16px; 
     display: inline-block;
+    margin-bottom: 16px;
 }
-
 .footer_paragraph{
     max-width: 264px;
 }
