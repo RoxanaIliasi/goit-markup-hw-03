@@ -318,7 +318,10 @@ img{
 }
 .team-one{
     flex-basis: calc((100% - 3 * 24px) / 4)
-    border-radius: 0px 0px 4px 4px; 
+    border-top-left-radius: 0px; 
+    border-top-right-radius: 0px; 
+    border-top-right-radius: 4px; 
+    border-bottom-left-radius: 4px;
 }
 .title-section-three{
     text-align: center;
@@ -352,6 +355,9 @@ img{
 .our_portofolio{
     width: calc((100% - 48px) / 3);
 }
+.section-four-list{
+    width: calc((100% - 48px) / 3); 
+}
 .app-name{
      padding: 32px 16px;
      border: 1px solid #e7e9fc;
@@ -360,6 +366,7 @@ img{
 }
 .footer{
     padding: 100px 0; 
+    display: inline-block;
    
 }
 .logo-footer{
