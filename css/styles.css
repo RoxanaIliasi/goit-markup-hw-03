@@ -363,6 +363,9 @@ img{
      border-top: none;
      margin-bottom: 8px; 
 }
+.subtitle_four{
+    margin-bottom: 8px;
+}
 .footer-class{
     padding: 100px 0; 
     display: inline-block; 
