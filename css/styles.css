@@ -296,24 +296,29 @@ img{
 }
 
 .section_three{
-    background-color: #F4F4FD;
-    Width:1440px;
-Height:732px;
-Top:1016px;
+   padding: 120px 0; 
+
+}
+.name-and-position{
+     padding: 32px 0; 
+}
+.title-section-three{
+    ext-align: center; 
+     margin-bottom: 8px;
+}
+.our_team{
+    text-align: center;
 }
 .title{
-    padding-top: 40px;
-    line-height: 40px;
-    margin-bottom: 40px;
+    margin-bottom: 72px;
 }
 .teamwork{
     display:flex;
-    gap: 32px;
-    border-radius:0px, 0px, 4px, 4px;
-    Padding:0px, 0px, 32px, 0px;
+    gap: 24px;
 }
 .team-one{
-    margin-left:156px;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px; 
 }
 .team-four{
     padding-right: 156px;;
@@ -325,4 +330,37 @@ Top:1016px;
 }
 .our_team{
     text-align: center;
+}
+.section-four{
+    padding-top: 120px; 
+
+}
+.title_three{
+    margin-bottom: 72px; 
+}
+.section-four-list{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px; 
+}
+.our_portofolio{
+    width: calc((100% - 48px) / 3);
+}
+.app-name{
+     padding: 32px 16px;
+     border: 1px solid #e7e9fc;
+     border-top: none;
+      margin-bottom: 8px; 
+}
+.footer{
+    padding: 100px 0; 
+   
+}
+.logo-footer{
+     display: inline-block;
+    margin-bottom: 16px; 
+}
+.footer_paragraph{
+    max-width: 264px;
 }
