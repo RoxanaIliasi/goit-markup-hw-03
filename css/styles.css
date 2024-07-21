@@ -361,6 +361,9 @@ img{
     display: inline-block;
     margin-bottom: 16px; 
 }
+a{
+    display: inline-block;
+}
 .footer_paragraph{
     max-width: 264px;
 }
