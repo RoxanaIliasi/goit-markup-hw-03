@@ -380,3 +380,6 @@ img{
 .footer_paragraph{
     max-width: 264px;
 }
+.footer-logo span{
+    display: inline-block;
+}
